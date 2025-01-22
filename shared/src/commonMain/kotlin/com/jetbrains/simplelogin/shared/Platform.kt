@@ -1,0 +1,13 @@
+package com.jetbrains.simplelogin.shared
+
+/**
+ * SimpleLogin
+ * Created by Nauman Zubair on 22 January, 2025
+ */
+
+
+interface Platform {
+    val name: String
+}
+
+expect fun getPlatform(): Platform
